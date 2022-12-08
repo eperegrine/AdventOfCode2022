@@ -1,10 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using AdventOfCode.Common;
 
-//68467
-
-using System.Reflection;
-using AdventOfCode.Common;
-
+//Result: 68467
 var path = FileHelper.GetPathOfDataFile("elves.txt");
 
 Console.WriteLine($"Loading the elf file from: {path}");

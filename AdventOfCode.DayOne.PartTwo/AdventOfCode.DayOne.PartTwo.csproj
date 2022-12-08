@@ -9,15 +9,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Remove="Data\elves.txt" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\AdventOfCode.Common\AdventOfCode.Common.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="Data\elves.txt" />
+      <Content Include="Data\elves.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>
